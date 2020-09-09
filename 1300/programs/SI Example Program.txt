@@ -1,0 +1,73 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float userNumOne;
+	float userNumTwo;
+	float userNumThree;
+	float userNumSum;
+	float userNumSub;
+	float userNumMulti;
+	float userNumDev;
+
+
+	//Math
+	cout << "Input a number \n";
+	cout << endl;
+	cin >> userNumOne;
+	cout << "Input a number \n";
+	cout << endl;
+	cin >> userNumTwo;
+	cout << "Input a number \n";
+	cout << endl;
+	cin >> userNumThree;
+
+	userNumSum = userNumOne + userNumTwo + userNumThree;
+	userNumSub = userNumOne - userNumTwo - userNumThree;
+	userNumMulti = userNumSum * userNumSub;
+	userNumDev = userNumMulti / userNumSum;
+		
+	cout << "Andrew Worly\n";
+	cout << "Jun 26\n";
+	cout << "25\n";
+	cout << "Starwars\n\n";
+	cout << "Daria Stokely\n";
+	cout << "Aug 23\n";
+	cout << "18\n";
+	cout << "Interstellar\n\n";
+	cout << "Blake Brown\n";
+	cout << "May 24\n";
+	cout << "18\n";
+	cout << "Act of Valor\n\n";
+	cout << "Whitney Kirby\n";
+	cout << "Aug 21\n";
+	cout << "Harry Potter\n\n";
+	cout << "Cannon Ruth\n";
+	cout << "June 23\n";
+	cout << "18\n";
+	cout << "Lord of the Rings: Return of the King\n\n";
+	cout << "Lizzy Zink\n";
+	cout << "Sept 27\n";
+	cout << "19\n"; 
+	cout << "Pulp Fiction\n\n";
+	cout << "Stephen Krempasky\n";
+	cout << "Mar 20\n";
+	cout << "The Hunger Games\n\n";
+	cout << "Karie Perdue\n";
+	cout << "Dec 16\n";
+	cout << "19\n";
+	cout << "Lord of the Rings\n\n";;
+	cout << "Peng Gao\n";
+	cout << "Apr 27\n";
+	cout << "18\n";
+	cout << "Batman\n\n";
+	cout << "Robert Thompson\n";
+	cout << "Feb 3\n";
+	cout << "18\n";
+	cout << "Lord of the Rings: The Two Towers\n\n";
+
+	cout << "This is your number that we calculated at the beginning of the program: ";
+	cout << userNumDev;
+	return 0;
+}
