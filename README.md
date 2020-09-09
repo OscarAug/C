@@ -1,2 +1,3 @@
 # bachelor  c++
- c++ knowledge and learing
+ c++ knowledge and learning during the bachelor university
+ includes some labs and assignments
